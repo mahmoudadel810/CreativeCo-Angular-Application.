@@ -1,0 +1,9 @@
+/* footer.component.css */
+.social-icons a {
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--orange) !important;
+  transform: translateY(-3px);
+}

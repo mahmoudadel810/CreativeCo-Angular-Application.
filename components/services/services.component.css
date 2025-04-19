@@ -1,0 +1,14 @@
+/* services.component.css */
+.hover-effect {
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 15px 30px rgba(253, 126, 20, 0.2) !important;
+}
+
+.card:hover .icon-wrapper {
+  background-color: rgba(253, 114, 0, 0.2) !important;
+  transform: scale(1.1);
+}

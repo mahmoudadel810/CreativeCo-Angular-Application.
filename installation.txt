@@ -1,0 +1,16 @@
+1- install nodejs
+-- node -v
+2- install typescript
+	== npm i -g typescript
+
+=====================================
+== npm i -g @angular/cli
+
+//create new Project
+== ng new projectName
+
+
+== run angular project
+//ng serve 
+// ng serve -o
+npm start

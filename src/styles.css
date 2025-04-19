@@ -1,0 +1,39 @@
+/* Import Bootstrap Icons */
+/* @import "~bootstrap-icons/font/bootstrap-icons.css"; */
+/* Custom orange theme */
+:root {
+  --orange: #fd7014;
+  --orange-light: rgba(253, 126, 20, 0.1);
+  --orange-dark: #e67312;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section padding */
+section {
+  padding: 5rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Navbar link animation */
+@keyframes underline {
+  from { width: 0; }
+  to { width: 100%; }
+}
